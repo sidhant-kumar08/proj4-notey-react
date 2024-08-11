@@ -14,10 +14,10 @@ function Contact() {
             <div className="contact">
               <h1>Contact Me</h1>
               <div className="links-container">
-                  <Link to='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHwCwSwDZWDjHSckCnzKKzpSqDmsGJGsdcnhPGhHtmJTdXQqLmWSvFBLlGzRfRcnxQxXMxH' target='blank'><img src="../src/assets/mail.svg" alt="mail"  height={50} width={40} /></Link>
-                  <Link target='blank' to='https://www.linkedin.com/in/sidhant08' ><img src="../src/assets/linkedin.svg" alt="linkedin"  height={50} width={30} /></Link>
-                  <Link target='blank' to='https://github.com/sidhant-kumar08' ><img src="../src/assets/github.svg" alt="github"  height={50} width={30} /></Link>
-                  <Link target='blank' to='https://x.com/sidhantkumar_08' ><img src="../src/assets/twitter.svg" alt="twitter"  height={50} width={30} /></Link>
+                  <Link to='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHwCwSwDZWDjHSckCnzKKzpSqDmsGJGsdcnhPGhHtmJTdXQqLmWSvFBLlGzRfRcnxQxXMxH' target='blank'><img src="./mail.svg" alt="mail"  height={50} width={40} /></Link>
+                  <Link target='blank' to='https://www.linkedin.com/in/sidhant08' ><img src="./linkedin.svg" alt="linkedin"  height={50} width={30} /></Link>
+                  <Link target='blank' to='https://github.com/sidhant-kumar08' ><img src="./github.svg" alt="github"  height={50} width={30} /></Link>
+                  <Link target='blank' to='https://x.com/sidhantkumar_08' ><img src="./twitter.svg" alt="twitter"  height={50} width={30} /></Link>
               </div>
               
             </div>
