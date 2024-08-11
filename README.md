@@ -15,9 +15,11 @@ Notey is a simple, yet effective note-taking application built using React. It a
 
 **Features**
 -----------------------------------------
-Create new notes
-Edit existing notes
-Delete notes
+**Create new notes**
+
+**Edit existing notes**
+
+**Delete notes**
 
 --------------------------------------------
 
