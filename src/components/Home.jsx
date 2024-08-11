@@ -34,7 +34,7 @@ function Home() {
 
 
         <div className="main-img">
-          <img src="../src/assets/main.png" alt="" height={450} width={650} />
+          <img src="./main.png" alt="" height={450} width={650} />
         </div>
 
       </div>
