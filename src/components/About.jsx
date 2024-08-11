@@ -13,7 +13,7 @@ function About() {
         </div>
 
         <div className="about-img">
-          <img src="./public/GithubDP.JPG" alt="image" />
+          <img src="./GithubDP.JPG" alt="image" />
         </div>
 
         <div className="about-info">
