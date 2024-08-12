@@ -9,7 +9,7 @@ import About from './components/About.jsx'
 import ErrorElement from './components/ErrorElement.jsx'
 import Home from './components/Home.jsx'
 import Create from './components/Create.jsx'
-import ViewNotes from './components/ViewNotes.jsx'
+
 
 const router = createBrowserRouter([
   {
@@ -35,10 +35,6 @@ const router = createBrowserRouter([
       {
         path: 'create',
         element: <Create />
-      },
-      {
-        path: 'view',
-        element: <ViewNotes />
       }
     ],
     errorElement: <ErrorElement />
