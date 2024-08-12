@@ -35,7 +35,7 @@ function Navbar() {
       {menu ? <div className="menu-container">
         <div className="menu">
           <Link to='/' onClick={()=>setMenu(false)}><button>Home</button></Link>
-          <Link to='/view' onClick={()=>setMenu(false)}><button>View Notes</button></Link>
+          <Link to='/create' onClick={()=>setMenu(false)}><button>View Notes</button></Link>
           {/* <Link to='' onClick={()=>setMenu(false)}><button>Profile</button></Link> */}
           <Link to='/about' onClick={()=>setMenu(false)}><button>About</button></Link>
           <Link to='/contact' onClick={()=>setMenu(false)}><button>Contact</button></Link>
@@ -54,7 +54,8 @@ function Navbar() {
         </div>
         <div className="mobile-menu-box">
           <Link to='/' onClick={()=>setMobilemenu(false)}>Home</Link>
-          <Link to='' onClick={()=>setMobilemenu(false)}>Profile</Link>
+          <Link to='/create' onClick={()=>setMobilemenu(false)}>View Notes</Link>
+          <Link to='/feedback' onClick={()=>setMobilemenu(false)}>Feedback</Link>
           <Link to='/about' onClick={()=>setMobilemenu(false)}>About</Link>
           <Link to='/contact' onClick={()=>setMobilemenu(false)}>Contact</Link>
         </div>
