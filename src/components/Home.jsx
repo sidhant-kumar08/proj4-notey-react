@@ -26,7 +26,7 @@ function Home() {
             </div>
 
             <div className="vn-button">
-              <Link to='/view'>{"Saved Notes >"}</Link>
+              <Link to='/create'>{"Saved Notes >"}</Link>
             </div>
           </div>
         </div>
